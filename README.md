@@ -12,8 +12,9 @@
 3.匯入 db/employee_seat_system_dump.sql：
 mysql -u youruser -p employee_seat_system < db/employee_seat_system_dump.sql
 
-在 backend/src/main/resources/ 下建立 application.properties：
+在 `backend/src/main/resources/` 下建立 `application.properties`：
 
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_seat_system?useSSL=false&serverTimezone=Asia/Taipei
 spring.datasource.username=你的使用者名稱
 spring.datasource.password=你的密碼
