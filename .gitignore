@@ -1,0 +1,20 @@
+# Java / Spring Boot
+**/application.properties
+**/application.yml
+
+# Node / Vue
+node_modules/
+dist/
+
+# Local environment files
+.env
+*.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build artifacts
+/target/
