@@ -26,12 +26,13 @@ spring.jpa.hibernate.naming.physical-strategy=org.hibernate.boot.model.naming.Ph
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
-server.port=8080```
+server.port=8080
+```
 
 PowerShell 執行：
 cd backend
-```.\mvnw.cmd spring-boot:run```
+`.\mvnw.cmd spring-boot:run`
 
 cd frontend
-```npm install
-npm run dev```
+`npm install`
+`npm run dev`
