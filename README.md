@@ -30,6 +30,7 @@ server.port=8080
 ```
 
 PowerShell 執行：
+
 cd backend
 `.\mvnw.cmd spring-boot:run`
 
