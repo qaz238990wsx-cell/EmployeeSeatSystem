@@ -14,6 +14,8 @@ mysql -u youruser -p employee_seat_system < db/employee_seat_system_dump.sql
 
 在 `backend/src/main/resources/` 下建立 `application.properties`：
 
+在 `backend/src/main/resources/` 下建立 `application.properties`：
+
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_seat_system?useSSL=false&serverTimezone=Asia/Taipei
 spring.datasource.username=你的使用者名稱
@@ -28,11 +30,10 @@ spring.jpa.properties.hibernate.format_sql=true
 
 server.port=8080
 
-powershell執行:
-
-cd至backend
+PowerShell 執行：
+cd backend
 .\mvnw.cmd spring-boot:run
 
-cd至frontend
+cd frontend
 npm install
 npm run dev
